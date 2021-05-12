@@ -1,14 +1,11 @@
 import React , {Component} from 'react';
 import "./index.css";
 
-const Destructuring = props=>{
-
-    const {name, surname} = props
-    return(
-        <div>
-            <h1>Hi, {name} {surname}</h1>
-        </div>
-    )
+class Destructuring extends Component{
+    render(){
+        const {name, surname} = this.props
+        return <h1> Hey, {name} {surname}</h1>
+    }
 }
 
 export default Destructuring
