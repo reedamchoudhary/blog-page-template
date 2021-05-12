@@ -7,7 +7,7 @@ import ClassClick from "./ClassClick"
 function App (){
   return (
     <>
-    <ClassClick />
+    <Counter />
     </>
   )
 }

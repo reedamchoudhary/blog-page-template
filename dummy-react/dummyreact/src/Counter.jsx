@@ -37,7 +37,7 @@ class Counter extends React.Component {
       this.state = {isToggleOn: true, count:0};
   
       // This binding is necessary to make `this` work in the callback
-      this.handleClick = this.handleClick.bind(this);
+    //   this.handleClick = this.handleClick.bind(this);
     }
   
     handleClick() {
@@ -50,8 +50,8 @@ class Counter extends React.Component {
       return (
           <div>
           <h1>Count= {this.state.count}</h1>
-        <button onClick={()=>this.handleClick()}>
-          {this.state.isToggleOn ? 'ON' : 'OFF'}
+        <button onClick={this.handleClick.bind(this)}>
+          click
         </button>
         </div>
       );
