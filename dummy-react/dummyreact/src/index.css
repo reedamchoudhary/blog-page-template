@@ -12,19 +12,10 @@ code {
     monospace;
 }
 
-img{
-  padding-right: 30px;
-  
-
-}
-.image-div{
+div{
+  height: 70vh;
   display: flex;
+  flex-direction: column;
   justify-content: center;
-  text-align: center;
-}
-
-h1{
-  color: #fa9191;
-  text-shadow: 2px 3px 5px;
-  text-align: center;
+  align-items: center;
 }
