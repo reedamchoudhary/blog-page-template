@@ -1,5 +1,5 @@
 function ChilComponent(props){
-    return <button onClick = {props.eventHandler}>Greet</button>
+    return <button onClick = {()=>props.eventHandler('child')}>Greet</button>
 }
 
 export default ChilComponent
