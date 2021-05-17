@@ -7,12 +7,13 @@ import ConditionalRendering from './ConditionalRendering'
 import ListRendering from "./ListRendering"
 import Forms from './Forms'
 import HooksPractice from './HooksPractice'
+import HelloUser from './HelloUser'
 
 import ClassClick from "./ClassClick"
 function App (){
   return (
     <>
-    <HooksPractice />
+    <HelloUser />
     </>
   )
 }
